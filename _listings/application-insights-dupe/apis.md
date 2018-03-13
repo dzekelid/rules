@@ -27,7 +27,7 @@ apis:
   tags: Rules
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/rules/master/_listings/application-insights-dupe/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-insights-alertrules-rulename-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/rules/master/_listings/application-insights-dupe/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-insights-alertrules-rulename-delete.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/application-insights/
