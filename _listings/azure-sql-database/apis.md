@@ -23,7 +23,7 @@ apis:
   tags: Rules
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/rules/master/_listings/azure-sql-database/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-sql-servers-servername-firewallrules-firewallrulename-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/rules/master/_listings/azure-sql-database/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-sql-servers-servername-firewallrules-firewallrulename-get.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/sql-database/
