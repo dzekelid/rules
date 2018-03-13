@@ -37,7 +37,7 @@ apis:
   tags: Rules
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/rules/master/_listings/aws-waf/action-createrule-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/rules/master/_listings/aws-waf/action-deleterule-get.md
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/waf/latest/APIReference/Welcome.html
