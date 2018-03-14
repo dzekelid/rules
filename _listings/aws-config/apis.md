@@ -34,7 +34,7 @@ apis:
   tags: Rules
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/rules/master/_listings/aws-config/action-deleteconfigrule-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/rules/master/_listings/aws-config/action-describeconfigrules-get.md
 x-common:
 - type: x-command-line-interface
   url: http://docs.aws.amazon.com/cli/latest/reference/configservice/index.html
