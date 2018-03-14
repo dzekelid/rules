@@ -32,7 +32,7 @@ apis:
   tags: Rules
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/rules/master/_listings/aws-internet-of-things/action-createtopicrule-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/rules/master/_listings/aws-internet-of-things/action-deletetopicrule-get.md
 x-common:
 - type: x-blog
   url: https://aws.amazon.com/iot-platform/developer-resources/#Blog
