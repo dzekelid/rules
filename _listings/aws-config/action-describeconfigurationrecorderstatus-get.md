@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeConfigurationRecorderStatus&k=1:
+  /?Action=DescribeConfigurationRecorderStatus:
     get:
       summary: ' Describe Configuration Recorder Status '
       description: Returns the current status of the specified configuration recorder
