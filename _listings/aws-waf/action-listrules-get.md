@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ListRules&k=1:
+  /?Action=ListRules:
     get:
       summary: ' List Rules '
       description: 'Service: AWS WAFReturns an array of'
