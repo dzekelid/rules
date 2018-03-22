@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteTopicRule&k=1:
+  /?Action=DeleteTopicRule:
     get:
       summary: ' Delete Topic Rule '
       description: Deletes the specified rule
