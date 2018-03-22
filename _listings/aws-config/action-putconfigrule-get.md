@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=PutConfigRule&k=1:
+  /?Action=PutConfigRule:
     get:
       summary: ' Put Config Rule '
       description: "Adds or updates an AWS Config rule for evaluating whether your
