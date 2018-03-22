@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ModifyRule&k=1:
+  /?Action=ModifyRule:
     get:
       summary: ' Modify Rule '
       description: Modifies the specified rule
