@@ -13,9 +13,9 @@ tags:
 - Notifications
 - Monitoring
 - Incident
-created: "2018-03-14"
-modified: "2018-03-14"
-url: https://raw.githubusercontent.com/streamdata-gallery/rules/master/_listings/pagerduty/apis.yaml
+created: "2018-03-22"
+modified: "2018-03-22"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/rules/master/_listings/pagerduty/apis.yaml
 specificationVersion: "0.14"
 apis: []
 x-common:
