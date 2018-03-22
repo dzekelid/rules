@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteRule&k=1:
+  /?Action=DeleteRule:
     get:
       summary: ' Delete Rule '
       description: 'Service: AWS WAFPermanently deletes a'
