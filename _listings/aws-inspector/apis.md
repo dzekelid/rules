@@ -30,7 +30,7 @@ apis:
   tags: Rules
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/rules/master/_listings/aws-inspector/action-describerulespackages-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/rules/master/_listings/aws-inspector/action-listrulespackages-get.md
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/inspector/latest/APIReference/
