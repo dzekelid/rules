@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteConfigRule&k=1:
+  /?Action=DeleteConfigRule:
     get:
       summary: ' Delete Config Rule '
       description: Deletes the specified AWS Config rule and all of its evaluation
