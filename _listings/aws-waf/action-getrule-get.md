@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=GetRule&k=1:
+  /?Action=GetRule:
     get:
       summary: ' Get Rule '
       description: 'Service: AWS WAFReturns the'
