@@ -12,9 +12,9 @@ tags:
 - Deployment
 - Compute
 - Cloud
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/rules/master/_listings/google-compute-engine/apis.yaml
+created: "2018-03-22"
+modified: "2018-03-22"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/rules/master/_listings/google-compute-engine/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Google Compute Engine API
@@ -26,7 +26,7 @@ apis:
   tags: Rules
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/rules/master/_listings/google-compute-engine/project-aggregated-forwardingrules-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/rules/master/_listings/google-compute-engine/project-aggregated-forwardingrules-get.md
 x-common:
 - type: x-code
   url: https://cloud.google.com/compute/docs/api/libraries
