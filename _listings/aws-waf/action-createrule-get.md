@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateRule&k=1:
+  /?Action=CreateRule:
     get:
       summary: ' Create Rule '
       description: "Service: AWS WAFCreates a Rule, which contains the IPSet objects,
