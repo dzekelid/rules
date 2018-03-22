@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeRulesPackages&k=1:
+  /?Action=DescribeRulesPackages:
     get:
       summary: ' Describe Rules Packages '
       description: |-
