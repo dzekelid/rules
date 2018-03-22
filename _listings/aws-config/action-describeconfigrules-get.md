@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeConfigRules&k=1:
+  /?Action=DescribeConfigRules:
     get:
       summary: ' Describe Config Rules '
       description: Returns details about your AWS Config rules
