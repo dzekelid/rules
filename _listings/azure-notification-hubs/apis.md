@@ -11,9 +11,9 @@ tags:
 - Stack Network
 - Notifications
 - Microsoft
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/rules/master/_listings/azure-notification-hubs/apis.yaml
+created: "2018-03-22"
+modified: "2018-03-22"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/rules/master/_listings/azure-notification-hubs/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Azure Notification Hubs API
@@ -25,7 +25,7 @@ apis:
   tags: Rules
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/rules/master/_listings/azure-notification-hubs/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-notificationhubs-namespaces-namespacename-notificationhubs-notificationhubname-authorizationrules-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/rules/master/_listings/azure-notification-hubs/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-notificationhubs-namespaces-namespacename-authorizationrules-get.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/rest/api/notificationhubs
