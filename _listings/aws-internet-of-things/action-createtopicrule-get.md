@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateTopicRule&k=1:
+  /?Action=CreateTopicRule:
     get:
       summary: ' Create Topic Rule '
       description: Creates a rule
