@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateReceiptRule&k=1:
+  /?Action=CreateReceiptRule:
     get:
       summary: ' Create Receipt Rule '
       description: Creates a receipt rule
