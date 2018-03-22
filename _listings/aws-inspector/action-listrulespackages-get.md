@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ListRulesPackages&k=1:
+  /?Action=ListRulesPackages:
     get:
       summary: ' List Rules Packages '
       description: Lists all available Amazon Inspector rules packages
