@@ -43,6 +43,7 @@ paths:
           description: OK
       tags:
       - forwarding rules
+      - aggregation
 definitions:
   AccessConfig:
     properties:
