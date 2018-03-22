@@ -38,7 +38,7 @@ apis:
   tags: Rules
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/rules/master/_listings/aws-elastic-load-balancing/action-describerules-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/rules/master/_listings/aws-elastic-load-balancing/action-modifyrule-get.md
 x-common:
 - type: x-command-line-interface
   url: http://docs.aws.amazon.com/cli/latest/reference/elbv2/index.html
