@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeConfigurationRecorders&k=1:
+  /?Action=DescribeConfigurationRecorders:
     get:
       summary: ' Describe Configuration Recorders '
       description: Returns the details for the specified configuration recorders
