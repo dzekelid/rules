@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DisableTopicRule&k=1:
+  /?Action=DisableTopicRule:
     get:
       summary: ' Disable Topic Rule '
       description: Disables the specified rule
