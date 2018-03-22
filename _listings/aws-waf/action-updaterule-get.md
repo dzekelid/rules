@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=UpdateRule&k=1:
+  /?Action=UpdateRule:
     get:
       summary: ' Update Rule'
       description: 'Service: AWS WAFInserts or deletes'
