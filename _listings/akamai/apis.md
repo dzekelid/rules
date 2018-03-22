@@ -20,9 +20,9 @@ tags:
 - Bots
 - Applications
 - API LIfeycle
-created: "2018-03-14"
-modified: "2018-03-14"
-url: https://raw.githubusercontent.com/streamdata-gallery/rules/master/_listings/akamai/apis.yaml
+created: "2018-03-22"
+modified: "2018-03-22"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/rules/master/_listings/akamai/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Akamai API
@@ -33,7 +33,7 @@ apis:
   tags: Rules
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/rules/master/_listings/akamai/papi-v0-properties-propertyid-versions-propertyversion-rules-contractid,groupid-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/rules/master/_listings/akamai/cloudlets-api-v2-policies-policyid-versions-includerules,matchruleformat-get.md
 x-common:
 - type: x-base
   url: https://api.ccu.akamai.com
