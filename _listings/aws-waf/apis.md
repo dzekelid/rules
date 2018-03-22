@@ -22,9 +22,9 @@ tags:
 - Security
 - Firewall
 - Amazon Web Services
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/rules/master/_listings/aws-waf/apis.yaml
+created: "2018-03-22"
+modified: "2018-03-22"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/rules/master/_listings/aws-waf/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: AWS WAF API
@@ -37,7 +37,7 @@ apis:
   tags: Rules
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/rules/master/_listings/aws-waf/action-updaterule-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/rules/master/_listings/aws-waf/action-createrule-get.md
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/waf/latest/APIReference/Welcome.html
