@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=SetReceiptRulePosition&k=1:
+  /?Action=SetReceiptRulePosition:
     get:
       summary: ' Set Receipt Rule Position '
       description: Sets the position of the specified receipt rule in the receipt
