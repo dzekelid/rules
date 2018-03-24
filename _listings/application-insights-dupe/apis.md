@@ -13,8 +13,8 @@ x-kinRank: "10"
 x-alexaRank: ""
 tags:
 - Stack Network
-created: "2018-03-22"
-modified: "2018-03-22"
+created: "2018-03-24"
+modified: "2018-03-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/rules/master/_listings/application-insights-dupe/apis.yaml
 specificationVersion: "0.14"
 apis:
@@ -27,7 +27,7 @@ apis:
   tags: Rules
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/rules/master/_listings/application-insights-dupe/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-insights-alertrules-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/rules/master/_listings/application-insights-dupe/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-insights-alertrules-rulename-put.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/application-insights/
