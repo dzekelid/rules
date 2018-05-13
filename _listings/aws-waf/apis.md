@@ -38,15 +38,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/rules/master/_listings/aws-waf/action-updaterule-get.md
-- name: AWS WAF API List Rules
-  description: 'Service: AWS WAFReturns an array of.'
+- name: AWS WAF API Update Rule
+  description: 'Service: AWS WAFInserts or deletes.'
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSWAF.png
   humanURL: https://aws.amazon.com/waf/
   baseURL: http:://{host}//
   tags: Rules
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/rules/master/_listings/aws-waf/action-listrules-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/rules/master/_listings/aws-waf/action-updaterule-get.md
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/waf/latest/APIReference/Welcome.html
