@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Simple Email Service API
+  title: AWS Simple Email Service API Delete Receipt Rule
   version: 1.0.0
+  description: Deletes the specified receipt rule.
 schemes:
 - http
 produces:
