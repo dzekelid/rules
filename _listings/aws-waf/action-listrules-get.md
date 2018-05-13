@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS WAF API
+  title: AWS WAF API List Rules
   version: 1.0.0
+  description: 'Service: AWS WAFReturns an array of.'
 schemes:
 - http
 produces:
