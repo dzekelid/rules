@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Simple Email Service API
+  title: AWS Simple Email Service API Create Receipt Rule
   version: 1.0.0
+  description: Creates a receipt rule.
 schemes:
 - http
 produces:
