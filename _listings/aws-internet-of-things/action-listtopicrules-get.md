@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Internet of Things API
+  title: AWS Internet of Things API List Topic Rules
   version: 1.0.0
+  description: Lists the rules for the specific topic.
 schemes:
 - http
 produces:
