@@ -31,7 +31,32 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/rules/master/_listings/aws-inspector/action-listrulespackages-get.md
+- name: AWS Inspector API Describe Rules Packages
+  description: |-
+    Describes the rules packages that are specified by the ARNs of the rules
+             packages.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AmazonInspector.png
+  humanURL: https://aws.amazon.com/inspector/
+  baseURL: http:://{host}//
+  tags: Rules
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/rules/master/_listings/aws-inspector/action-describerulespackages-get.md
 x-common:
+- type: x-documentation
+  url: http://docs.aws.amazon.com/inspector/latest/APIReference/
+- type: x-faq
+  url: https://aws.amazon.com/inspector/faqs/
+- type: x-getting-started
+  url: https://docs.aws.amazon.com/inspector/latest/userguide/inspector_quickstart.html
+- type: x-partners
+  url: https://aws.amazon.com/inspector/partners/
+- type: x-pricing
+  url: https://aws.amazon.com/inspector/pricing/
+- type: x-testimonials
+  url: https://aws.amazon.com/inspector/customers/
+- type: x-website
+  url: https://aws.amazon.com/inspector/
 - type: x-documentation
   url: http://docs.aws.amazon.com/inspector/latest/APIReference/
 - type: x-faq
