@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Elastic Load Balancing API
+  title: AWS Elastic Load Balancing API Delete Rule
   version: 1.0.0
+  description: Deletes the specified rule.
 schemes:
 - http
 produces:
