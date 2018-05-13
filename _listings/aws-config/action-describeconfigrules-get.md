@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Config API
+  title: AWS Config API Describe Config Rules
   version: 1.0.0
+  description: Returns details about your AWS Config rules.
 schemes:
 - http
 produces:
