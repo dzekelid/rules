@@ -1,8 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: Compute Engine
-  description: Creates and runs virtual machines on Google Cloud Platform.
+  title: Google Compute Engine API Get Forwarding Rules
+  description: Retrieves an aggregated list of forwarding rules.
   contact:
     name: Google
     url: https://google.com
