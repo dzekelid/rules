@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS WAF API
+  title: AWS WAF API Delete Rule
   version: 1.0.0
+  description: 'Service: AWS WAFPermanently deletes a.'
 schemes:
 - http
 produces:
