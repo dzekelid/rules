@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Config API
+  title: AWS Config API Delete Config Rule
   version: 1.0.0
+  description: Deletes the specified AWS Config rule and all of its evaluation results.
 schemes:
 - http
 produces:
