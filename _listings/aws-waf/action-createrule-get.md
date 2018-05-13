@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS WAF API
+  title: AWS WAF API Create Rule
   version: 1.0.0
+  description: "Service: AWS WAFCreates a Rule, which contains the IPSet objects,
+    ByteMatchSet objects, and \n\t\t\tother predicates that identify the requests
+    that you want to block."
 schemes:
 - http
 produces:
