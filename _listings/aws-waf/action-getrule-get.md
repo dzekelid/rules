@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS WAF API
+  title: AWS WAF API Get Rule
   version: 1.0.0
+  description: 'Service: AWS WAFReturns the.'
 schemes:
 - http
 produces:
