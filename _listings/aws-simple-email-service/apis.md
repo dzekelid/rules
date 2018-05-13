@@ -27,15 +27,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/rules/master/_listings/aws-simple-email-service/action-setreceiptruleposition-get.md
-- name: AWS Simple Email Service API Create Receipt Rule
-  description: Creates a receipt rule.
+- name: AWS Simple Email Service API Delete Receipt Rule
+  description: Deletes the specified receipt rule.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Application-Services_AmazonSES.png
   humanURL: https://aws.amazon.com/ses/
   baseURL: http:://{host}//
   tags: Rules
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/rules/master/_listings/aws-simple-email-service/action-createreceiptrule-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/rules/master/_listings/aws-simple-email-service/action-deletereceiptrule-get.md
 x-common:
 - type: x-change-log
   url: http://aws.amazon.com/releasenotes/Amazon-SES
