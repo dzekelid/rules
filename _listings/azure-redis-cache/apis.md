@@ -24,7 +24,28 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/rules/master/_listings/azure-redis-cache/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-cache-redis-cachename-firewallrules-get.md
+- name: Azure Redis Cache API Firewall Rules List
+  description: Gets all firewall rules in the specified redis cache.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-redis-cache-performance.png
+  humanURL: https://azure.microsoft.com/en-us/services/cache/
+  baseURL: http:://management.azure.com//
+  tags: Rules
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/rules/master/_listings/azure-redis-cache/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-cache-redis-cachename-firewallrules-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/rules/master/_listings/azure-redis-cache/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-cache-redis-cachename-firewallrules-get-postman.md
 x-common:
+- type: x-documentation
+  url: https://docs.microsoft.com/en-us/azure/redis-cache/
+- type: x-pricing
+  url: https://azure.microsoft.com/en-us/pricing/details/cache/
+- type: x-service-level-agreements
+  url: https://azure.microsoft.com/en-us/support/legal/sla/cache/
+- type: x-status
+  url: https://azure.microsoft.com/en-us/status/
+- type: x-website
+  url: https://azure.microsoft.com/en-us/services/cache/
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/redis-cache/
 - type: x-pricing
