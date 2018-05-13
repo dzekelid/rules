@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Internet of Things API
+  title: AWS Internet of Things API Delete Topic Rule
   version: 1.0.0
+  description: Deletes the specified rule.
 schemes:
 - http
 produces:
