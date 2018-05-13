@@ -24,15 +24,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/rules/master/_listings/azure-sql-database/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-sql-servers-servername-firewallrules-get.md
-- name: Azure SQL Database API Firewall Rules Create Or Update
-  description: Creates or updates a firewall rule.
+- name: Azure SQL Database API Firewall Rules Delete
+  description: Deletes a firewall rule.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-sql-01-stop-worrying.png
   humanURL: https://azure.microsoft.com/en-us/services/sql-database/
   baseURL: http:://management.azure.com//
   tags: Rules
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/rules/master/_listings/azure-sql-database/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-sql-servers-servername-firewallrules-firewallrulename-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/rules/master/_listings/azure-sql-database/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-sql-servers-servername-firewallrules-firewallrulename-delete.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/rules/master/_listings/azure-sql-database/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-sql-servers-servername-firewallrules-firewallrulename-delete-postman.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/sql-database/
