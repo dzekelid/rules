@@ -33,15 +33,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/rules/master/_listings/aws-internet-of-things/action-replacetopicrule-get.md
-- name: AWS Internet of Things API Delete Topic Rule
-  description: Deletes the specified rule.
+- name: AWS Internet of Things API Disable Topic Rule
+  description: Disables the specified rule.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Internet-Of-Things_AWSIoT.png
   humanURL: https://aws.amazon.com/iot-platform/
   baseURL: http:://{host}//
   tags: Rules
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/rules/master/_listings/aws-internet-of-things/action-deletetopicrule-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/rules/master/_listings/aws-internet-of-things/action-disabletopicrule-get.md
 x-common:
 - type: x-blog
   url: https://aws.amazon.com/iot-platform/developer-resources/#Blog
