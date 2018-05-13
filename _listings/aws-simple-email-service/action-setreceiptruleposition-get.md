@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Simple Email Service API
+  title: AWS Simple Email Service API Set Receipt Rule Position
   version: 1.0.0
+  description: Sets the position of the specified receipt rule in the receipt rule
+    set.
 schemes:
 - http
 produces:
