@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Config API
+  title: AWS Config API Put Config Rule
   version: 1.0.0
+  description: "Adds or updates an AWS Config rule for evaluating whether your AWS
+    resources comply\n\t\t\twith your desired configurations."
 schemes:
 - http
 produces:
