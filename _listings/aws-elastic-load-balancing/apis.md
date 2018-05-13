@@ -39,15 +39,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/rules/master/_listings/aws-elastic-load-balancing/action-modifyrule-get.md
-- name: AWS Elastic Load Balancing API Describe Rules
-  description: Describes the specified rules or the rules for the specified listener.
+- name: AWS Elastic Load Balancing API Modify Rule
+  description: Modifies the specified rule.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_ElasticLoadBalancing.png
   humanURL: https://aws.amazon.com/elasticloadbalancing/
   baseURL: http:://{host}//
   tags: Rules
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/rules/master/_listings/aws-elastic-load-balancing/action-describerules-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/rules/master/_listings/aws-elastic-load-balancing/action-modifyrule-get.md
 x-common:
 - type: x-command-line-interface
   url: http://docs.aws.amazon.com/cli/latest/reference/elbv2/index.html
