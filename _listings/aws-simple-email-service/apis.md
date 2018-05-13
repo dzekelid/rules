@@ -27,7 +27,36 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/rules/master/_listings/aws-simple-email-service/action-setreceiptruleposition-get.md
+- name: AWS Simple Email Service API Create Receipt Rule
+  description: Creates a receipt rule.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Application-Services_AmazonSES.png
+  humanURL: https://aws.amazon.com/ses/
+  baseURL: http:://{host}//
+  tags: Rules
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/rules/master/_listings/aws-simple-email-service/action-createreceiptrule-get.md
 x-common:
+- type: x-change-log
+  url: http://aws.amazon.com/releasenotes/Amazon-SES
+- type: x-documentation
+  url: http://docs.aws.amazon.com/ses/latest/APIReference/
+- type: x-faq
+  url: https://aws.amazon.com/ses/faqs/
+- type: x-forum
+  url: https://forums.aws.amazon.com/forum.jspa?forumID=90
+- type: x-getting-started
+  url: https://aws.amazon.com/ses/getting-started/
+- type: x-pricing
+  url: https://aws.amazon.com/ses/pricing/
+- type: x-sdk
+  url: http://aws.amazon.com/tools
+- type: x-service-health
+  url: http://status.aws.amazon.com/
+- type: x-tools
+  url: http://aws.amazon.com/developertools/Amazon-SES
+- type: x-website
+  url: https://aws.amazon.com/ses/
 - type: x-change-log
   url: http://aws.amazon.com/releasenotes/Amazon-SES
 - type: x-documentation
