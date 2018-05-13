@@ -38,17 +38,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/rules/master/_listings/aws-waf/action-updaterule-get.md
-- name: AWS WAF API Create Rule
-  description: "Service: AWS WAFCreates a Rule, which contains the IPSet objects,
-    ByteMatchSet objects, and \n\t\t\tother predicates that identify the requests
-    that you want to block."
+- name: AWS WAF API Delete Rule
+  description: 'Service: AWS WAFPermanently deletes a.'
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSWAF.png
   humanURL: https://aws.amazon.com/waf/
   baseURL: http:://{host}//
   tags: Rules
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/rules/master/_listings/aws-waf/action-createrule-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/rules/master/_listings/aws-waf/action-deleterule-get.md
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/waf/latest/APIReference/Welcome.html
