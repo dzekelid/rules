@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Config API
+  title: AWS Config API Describe Configuration Recorder Status
   version: 1.0.0
+  description: Returns the current status of the specified configuration recorder.
 schemes:
 - http
 produces:
