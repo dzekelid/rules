@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS WAF API
+  title: AWS WAF API Update Rule
   version: 1.0.0
+  description: 'Service: AWS WAFInserts or deletes.'
 schemes:
 - http
 produces:
