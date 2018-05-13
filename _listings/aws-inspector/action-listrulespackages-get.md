@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Inspector API
+  title: AWS Inspector API List Rules Packages
   version: 1.0.0
+  description: Lists all available Amazon Inspector rules packages.
 schemes:
 - http
 produces:
