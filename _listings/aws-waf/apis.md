@@ -1,69 +1,105 @@
 ---
 name: AWS WAF
-description: AWS WAF is a web application firewall that helps protect your webnbsp;applications
-  from common web exploits that could affect applicationnbsp;availability, compromise
-  security, or consume excessive resources. AWSnbsp;WAF gives you control over which
-  traffic to allow or block to your webnbsp;applications by defining customizable
-  web security rules. You can use AWSnbsp;WAF to create custom rules that block common
-  attack patterns, such as SQLnbsp;injection or cross-site scripting, and rules that
-  are designed for your specific application. New rules can be deployed within minutes,
-  letting you respondnbsp;quickly to changing traffic patterns. Also, AWS WAF includes
-  a full-featurednbsp;API that you can use to automate the creation, deployment, and
-  maintenancenbsp;of web security rules.nWith AWS WAF you pay only for what you use.
-  AWS WAF pricing is based on how many rules you deploy and how many web requests
-  your web application receives. There are no upfront commitments.nYou can deploy
-  AWS WAF on either Amazon CloudFront as part of your CDN solution or the Application
-  Load Balancer (ALB) that fronts your web servers or origin servers running on EC2.nbsp;
+x-slug: aws-waf
+description: AWS WAF is a web application firewall that helps protect your webapplications
+  from common web exploits that could affect applicationavailability, compromise security,
+  or consume excessive resources. AWSWAF gives you control over which traffic to allow
+  or block to your webapplications by defining customizable web security rules. You
+  can use AWSWAF to create custom rules that block common attack patterns, such as
+  SQLinjection or cross-site scripting, and rules that are designed for your specific
+  application. New rules can be deployed within minutes, letting you respondquickly
+  to changing traffic patterns. Also, AWS WAF includes a full-featuredAPI that you
+  can use to automate the creation, deployment, and maintenanceof web security rules.With
+  AWS WAF you pay only for what you use. AWS WAF pricing is based on how many rules
+  you deploy and how many web requests your web application receives. There are no
+  upfront commitments.You can deploy AWS WAF on either Amazon CloudFront as part of
+  your CDN solution or the Application Load Balancer (ALB) that fronts your web servers
+  or origin servers running on EC2.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSWAF.png
 x-kinRank: "10"
-x-alexaRank: ""
-tags:
-- Stack Network
-- Security
-- Firewall
-- Amazon Web Services
-created: "2018-03-24"
-modified: "2018-03-24"
-url: https://raw.githubusercontent.com/streamdata-gallery-topics/rules/master/_listings/aws-waf/apis.yaml
+x-alexaRank: "0"
+tags: Rules
+created: "2018-06-20"
+modified: "2018-06-20"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/rules/master/_listings/aws-waf/apis.md
 specificationVersion: "0.14"
 apis:
-- name: AWS WAF API
-  description: AWS WAF is a web application firewall that helps protect your webnbsp;applications
-    from common web exploits that could affect applicationnbsp;availability, compromise
-    security, or consume excessive resources
+- name: AWS WAF API Create Rule
+  x-api-slug: aws-waf-api
+  description: "Service: AWS WAFCreates a Rule, which contains the IPSet objects,
+    ByteMatchSet objects, and \n\t\t\tother predicates that identify the requests
+    that you want to block."
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSWAF.png
-  humanURL: ""
+  humanURL: https://aws.amazon.com/waf/
+  baseURL: ://///?Action=CreateRule
+  tags: Rules
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/rules/master/_listings/aws-waf/actioncreaterule-get-openapi.md
+- name: AWS WAF API Delete Rule
+  x-api-slug: aws-waf-api
+  description: 'Service: AWS WAFPermanently deletes a.'
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSWAF.png
+  humanURL: https://aws.amazon.com/waf/
+  baseURL: ://///?Action=DeleteRule
+  tags: Rules
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/rules/master/_listings/aws-waf/actiondeleterule-get-openapi.md
+- name: AWS WAF API Get Rule
+  x-api-slug: aws-waf-api
+  description: 'Service: AWS WAFReturns the.'
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSWAF.png
+  humanURL: https://aws.amazon.com/waf/
+  baseURL: ://///?Action=GetRule
+  tags: Rules
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/rules/master/_listings/aws-waf/actiongetrule-get-openapi.md
+- name: AWS WAF API List Rules
+  x-api-slug: aws-waf-api
+  description: 'Service: AWS WAFReturns an array of.'
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSWAF.png
+  humanURL: https://aws.amazon.com/waf/
+  baseURL: ://///?Action=ListRules
+  tags: Rules
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/rules/master/_listings/aws-waf/actionlistrules-get-openapi.md
+- name: AWS WAF API Update Rule
+  x-api-slug: aws-waf-api
+  description: 'Service: AWS WAFInserts or deletes.'
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSWAF.png
+  humanURL: https://aws.amazon.com/waf/
+  baseURL: ://///?Action=UpdateRule
+  tags: Rules
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/rules/master/_listings/aws-waf/actionupdaterule-get-openapi.md
+- name: AWS WAF API
+  x-api-slug: aws-waf-api
+  description: AWS WAF is a web application firewall that helps protect your webapplications
+    from common web exploits that could affect applicationavailability, compromise
+    security, or consume excessive resources. AWSWAF gives you control over which
+    traffic to allow or block to your webapplications by defining customizable web
+    security rules. You can use AWSWAF to create custom rules that block common attack
+    patterns, such as SQLinjection or cross-site scripting, and rules that are designed
+    for your specific application. New rules can be deployed within minutes, letting
+    you respondquickly to changing traffic patterns. Also, AWS WAF includes a full-featuredAPI
+    that you can use to automate the creation, deployment, and maintenanceof web security
+    rules.With AWS WAF you pay only for what you use. AWS WAF pricing is based on
+    how many rules you deploy and how many web requests your web application receives.
+    There are no upfront commitments.You can deploy AWS WAF on either Amazon CloudFront
+    as part of your CDN solution or the Application Load Balancer (ALB) that fronts
+    your web servers or origin servers running on EC2.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSWAF.png
+  humanURL: https://aws.amazon.com/waf/
   baseURL: :///
   tags: Rules
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/rules/master/_listings/aws-waf/action-updaterule-get.md
-- name: AWS WAF API Update Rule
-  description: 'Service: AWS WAFInserts or deletes.'
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSWAF.png
-  humanURL: https://aws.amazon.com/waf/
-  baseURL: http:://{host}//
-  tags: Rules
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/rules/master/_listings/aws-waf/action-updaterule-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/rules/master/_listings/aws-waf/openapi.md
 x-common:
-- type: x-documentation
-  url: http://docs.aws.amazon.com/waf/latest/APIReference/Welcome.html
-- type: x-faq
-  url: https://aws.amazon.com/waf/faq/
-- type: x-getting-started
-  url: https://aws.amazon.com/waf/getting-started/
-- type: x-partners
-  url: https://aws.amazon.com/waf/partners/
-- type: x-pricing
-  url: https://aws.amazon.com/waf/pricing/
-- type: x-tutorials
-  url: https://aws.amazon.com/waf/preconfiguredrules/
-- type: x-webinars
-  url: https://aws.amazon.com/waf/webinars/
-- type: x-website
-  url: https://aws.amazon.com/waf/
 - type: x-documentation
   url: http://docs.aws.amazon.com/waf/latest/APIReference/Welcome.html
 - type: x-faq
