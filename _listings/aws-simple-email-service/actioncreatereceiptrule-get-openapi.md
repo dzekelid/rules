@@ -13,6 +13,26 @@ produces:
 consumes:
 - application/json
 paths:
+  /?Action=CloneReceiptRuleSet:
+    get:
+      summary: Clone Receipt Rule Set
+      description: Creates a receipt rule set by cloning an existing one.
+      operationId: cloneReceiptRuleSet
+      x-api-path-slug: actionclonereceiptruleset-get
+      parameters:
+      - in: query
+        name: OriginalRuleSetName
+        description: The name of the rule set to clone
+        type: string
+      - in: query
+        name: RuleSetName
+        description: The name of the rule set to create
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Receipt Rule Sets
   /?Action=CreateReceiptRule:
     get:
       summary: Create Receipt Rule

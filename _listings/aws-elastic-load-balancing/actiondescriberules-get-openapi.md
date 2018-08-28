@@ -77,6 +77,30 @@ paths:
           description: OK
       tags:
       - Rules
+  /?Action=ModifyRule:
+    get:
+      summary: Modify Rule
+      description: Modifies the specified rule.
+      operationId: modifyRule
+      x-api-path-slug: actionmodifyrule-get
+      parameters:
+      - in: query
+        name: Actions.member.N
+        description: The actions
+        type: string
+      - in: query
+        name: Conditions.member.N
+        description: The conditions
+        type: string
+      - in: query
+        name: RuleArn
+        description: The Amazon Resource Name (ARN) of the rule
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Rules
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

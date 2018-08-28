@@ -9,13 +9,13 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "0"
 tags: Rules
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/rules/master/_listings/ibm-watson/apis.md
 specificationVersion: "0.14"
 apis:
-- name: IBM Watson IoT Platform Query active rules
-  x-api-slug: ibm-watson-iot-platform
+- name: IBM Watson IoT Platform HTTP REST API - Query active rules
+  x-api-slug: logicalinterfaceslogicalinterfaceidrules-get
   description: |-
     Rules allow you to specify conditions that can be used to trigger
     actions. For example, you might create a rule that sends an email if
@@ -31,25 +31,27 @@ apis:
     and page through the list of rules that are returned.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/ibm-watson-logo.png
   humanURL: https://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/
-  baseURL: https:////api/v0002//logicalinterfaces/{logicalInterfaceId}/rules
-  tags: Internet of Things,Logical interfaces,LogicalInterfaceId,Rules
+  baseURL: https:////api/v0002
+  tags: Machine Learning, Machine Learning, AI, API LIfeyclessss, Stack Network, Stack,
+    Getting Started Example, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/rules/master/_listings/ibm-watson/logicalinterfaceslogicalinterfaceidrules-get-openapi.md
-- name: IBM Watson IoT Platform Get an active rule
-  x-api-slug: ibm-watson-iot-platform
+- name: IBM Watson IoT Platform HTTP REST API - Get an active rule
+  x-api-slug: logicalinterfaceslogicalinterfaceidrulesruleid-get
   description: |-
     Retrieve the active rule with the specified id that has been associated
     with the specified logical interface.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/ibm-watson-logo.png
   humanURL: https://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/
-  baseURL: https:////api/v0002//logicalinterfaces/{logicalInterfaceId}/rules/{ruleId}
-  tags: Internet of Things,Logical interfaces,LogicalInterfaceId,Rules,RuleId
+  baseURL: https:////api/v0002
+  tags: Machine Learning, Machine Learning, AI, API LIfeyclessss, Stack Network, Stack,
+    Getting Started Example, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/rules/master/_listings/ibm-watson/logicalinterfaceslogicalinterfaceidrulesruleid-get-openapi.md
-- name: IBM Watson IoT Platform Query draft rules
-  x-api-slug: ibm-watson-iot-platform
+- name: IBM Watson IoT Platform HTTP REST API - Query draft rules
+  x-api-slug: draftlogicalinterfaceslogicalinterfaceidrules-get
   description: |-
     Rules allow you to specify conditions that can be used to trigger
     actions. For example, you might create a rule that sends an email if
@@ -65,37 +67,40 @@ apis:
     filter, sort and page through the list of rules that are returned.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/ibm-watson-logo.png
   humanURL: https://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/
-  baseURL: https:////api/v0002//draft/logicalinterfaces/{logicalInterfaceId}/rules
-  tags: Internet of Things,Draft,Logical interfaces,LogicalInterfaceId,Rules
+  baseURL: https:////api/v0002
+  tags: Machine Learning, Machine Learning, AI, API LIfeyclessss, Stack Network, Stack,
+    Getting Started Example, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/rules/master/_listings/ibm-watson/draftlogicalinterfaceslogicalinterfaceidrules-get-openapi.md
-- name: IBM Watson IoT Platform Create a draft rule
-  x-api-slug: ibm-watson-iot-platform
+- name: IBM Watson IoT Platform HTTP REST API - Create a draft rule
+  x-api-slug: draftlogicalinterfaceslogicalinterfaceidrules-post
   description: |-
     Creates a new draft rule that is associated with the logical interface
     for the organization in the Watson IoT Platform.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/ibm-watson-logo.png
   humanURL: https://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/
-  baseURL: https:////api/v0002//draft/logicalinterfaces/{logicalInterfaceId}/rules
-  tags: Internet of Things,Draft,Logical interfaces,LogicalInterfaceId,Rules
+  baseURL: https:////api/v0002
+  tags: Machine Learning, Machine Learning, AI, API LIfeyclessss, Stack Network, Stack,
+    Getting Started Example, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/rules/master/_listings/ibm-watson/draftlogicalinterfaceslogicalinterfaceidrules-post-openapi.md
-- name: IBM Watson IoT Platform Get a draft rule
-  x-api-slug: ibm-watson-iot-platform
+- name: IBM Watson IoT Platform HTTP REST API - Get a draft rule
+  x-api-slug: draftlogicalinterfaceslogicalinterfaceidrulesruleid-get
   description: |-
     Retrieve the draft rule with the specified id that has been associated
     with the specified logical interface.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/ibm-watson-logo.png
   humanURL: https://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/
-  baseURL: https:////api/v0002//draft/logicalinterfaces/{logicalInterfaceId}/rules/{ruleId}
-  tags: Internet of Things,Draft,Logical interfaces,LogicalInterfaceId,Rules,RuleId
+  baseURL: https:////api/v0002
+  tags: Machine Learning, Machine Learning, AI, API LIfeyclessss, Stack Network, Stack,
+    Getting Started Example, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/rules/master/_listings/ibm-watson/draftlogicalinterfaceslogicalinterfaceidrulesruleid-get-openapi.md
-- name: IBM Watson IoT Platform Update a draft rule
-  x-api-slug: ibm-watson-iot-platform
+- name: IBM Watson IoT Platform HTTP REST API - Update a draft rule
+  x-api-slug: draftlogicalinterfaceslogicalinterfaceidrulesruleid-put
   description: "Updates the draft rule with the specified id. The following properties\ncan
     be updated: \n\n  - name\n  - description\n  - condition\n\nNote that if the description
     field is omitted from the body of the\nupdate, then any existing description will
@@ -105,37 +110,30 @@ apis:
     of a\nsuccessful update."
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/ibm-watson-logo.png
   humanURL: https://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/
-  baseURL: https:////api/v0002//draft/logicalinterfaces/{logicalInterfaceId}/rules/{ruleId}
-  tags: Internet of Things,Draft,Logical interfaces,LogicalInterfaceId,Rules,RuleId
+  baseURL: https:////api/v0002
+  tags: Machine Learning, Machine Learning, AI, API LIfeyclessss, Stack Network, Stack,
+    Getting Started Example, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/rules/master/_listings/ibm-watson/draftlogicalinterfaceslogicalinterfaceidrulesruleid-put-openapi.md
-- name: IBM Watson IoT Platform Delete a draft rule
-  x-api-slug: ibm-watson-iot-platform
+- name: IBM Watson IoT Platform HTTP REST API - Delete a draft rule
+  x-api-slug: draftlogicalinterfaceslogicalinterfaceidrulesruleid-delete
   description: |-
     Deletes the draft rule with the specified id from the organization in
     the Watson IoT Platform.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/ibm-watson-logo.png
   humanURL: https://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/
-  baseURL: https:////api/v0002//draft/logicalinterfaces/{logicalInterfaceId}/rules/{ruleId}
-  tags: Internet of Things,Draft,Logical interfaces,LogicalInterfaceId,Rules,RuleId
+  baseURL: https:////api/v0002
+  tags: Machine Learning, Machine Learning, AI, API LIfeyclessss, Stack Network, Stack,
+    Getting Started Example, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/rules/master/_listings/ibm-watson/draftlogicalinterfaceslogicalinterfaceidrulesruleid-delete-openapi.md
-- name: IBM Watson IoT Platform
-  x-api-slug: ibm-watson-iot-platform
-  description: Meet IBM Watson, a cognitive system that enables a new partnership
-    between people and computers that enhances and scales human expertise. Watson
-    has been learning the language of professions and is trained by experts to work
-    across many different industries.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/ibm-watson-logo.png
-  humanURL: https://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/
-  baseURL: https:////api/v0002
-  tags: Rules
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/rules/master/_listings/ibm-watson/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://ibm.financial.crimes.insight.for.insurance.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://ibm.watson.stack.network
 - type: x-application-gallery
   url: https://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/gallery.html
 - type: x-blog

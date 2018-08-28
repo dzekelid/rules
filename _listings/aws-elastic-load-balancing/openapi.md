@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: AWS Elastic Load Balancing
 x-complete: 1
@@ -100,4 +99,19 @@ paths:
           description: OK
       tags:
       - Rules
----
+  /?Action=SetRulePriorities:
+    get:
+      summary: Set Rule Priorities
+      description: Sets the priorities of the specified rules.
+      operationId: setRulePriorities
+      x-api-path-slug: actionsetrulepriorities-get
+      parameters:
+      - in: query
+        name: RulePriorities.member.N
+        description: The rule priorities
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Rule Priorities

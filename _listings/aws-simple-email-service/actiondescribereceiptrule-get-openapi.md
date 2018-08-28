@@ -13,6 +13,26 @@ produces:
 consumes:
 - application/json
 paths:
+  /?Action=CloneReceiptRuleSet:
+    get:
+      summary: Clone Receipt Rule Set
+      description: Creates a receipt rule set by cloning an existing one.
+      operationId: cloneReceiptRuleSet
+      x-api-path-slug: actionclonereceiptruleset-get
+      parameters:
+      - in: query
+        name: OriginalRuleSetName
+        description: The name of the rule set to clone
+        type: string
+      - in: query
+        name: RuleSetName
+        description: The name of the rule set to create
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Receipt Rule Sets
   /?Action=CreateReceiptRule:
     get:
       summary: Create Receipt Rule
@@ -39,6 +59,22 @@ paths:
           description: OK
       tags:
       - Receipt Rules
+  /?Action=CreateReceiptRuleSet:
+    get:
+      summary: Create Receipt Rule Set
+      description: Creates an empty receipt rule set.
+      operationId: createReceiptRuleSet
+      x-api-path-slug: actioncreatereceiptruleset-get
+      parameters:
+      - in: query
+        name: RuleSetName
+        description: The name of the rule set to create
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Receipt Rule Sets
   /?Action=DeleteReceiptRule:
     get:
       summary: Delete Receipt Rule
@@ -60,6 +96,44 @@ paths:
           description: OK
       tags:
       - Receipt Rules
+  /?Action=DeleteReceiptRuleSet:
+    get:
+      summary: Delete Receipt Rule Set
+      description: Deletes the specified receipt rule set and all of the receipt rules
+        it contains.
+      operationId: deleteReceiptRuleSet
+      x-api-path-slug: actiondeletereceiptruleset-get
+      parameters:
+      - in: query
+        name: RuleSetName
+        description: The name of the receipt rule set to delete
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Receipt Rule Sets
+  /?Action=DescribeActiveReceiptRuleSet:
+    get:
+      summary: Describe Active Receipt Rule Set
+      description: Returns the metadata and receipt rules for the receipt rule set
+        that is currently active.
+      operationId: describeActiveReceiptRuleSet
+      x-api-path-slug: actiondescribeactivereceiptruleset-get
+      parameters:
+      - in: query
+        name: Metadata
+        description: The metadata for the currently active receipt rule set
+        type: string
+      - in: query
+        name: Rules.member.N
+        description: The receipt rules that belong to the active rule set
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Receipt Rule Sets
   /?Action=DescribeReceiptRule:
     get:
       summary: Describe Receipt Rule

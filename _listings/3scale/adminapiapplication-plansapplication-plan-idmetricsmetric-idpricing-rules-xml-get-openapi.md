@@ -44,6 +44,29 @@ paths:
       - List
       - Per
       - Metric
+  /admin/api/application_plans/{application_plan_id}/pricing_rules.xml:
+    get:
+      summary: Pricing Rules List per Application Plan
+      description: Pricing rules list per application plan.
+      operationId: application_plan_pricing_rules
+      x-api-path-slug: adminapiapplication-plansapplication-plan-idpricing-rules-xml-get
+      parameters:
+      - in: path
+        name: application_plan_id
+        description: id of the application plan
+      - in: query
+        name: provider_key
+        description: Your api key with 3scale (also known as provider key)
+      responses:
+        200:
+          description: OK
+      tags:
+      - Pricing
+      - Rules
+      - List
+      - Per
+      - Application
+      - Plan
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

@@ -13,6 +13,34 @@ produces:
 consumes:
 - application/json
 paths:
+  /?Action=ListTopicRules:
+    get:
+      summary: List Topic Rules
+      description: Lists the rules for the specific topic.
+      operationId: listTopicRules
+      x-api-path-slug: actionlisttopicrules-get
+      parameters:
+      - in: query
+        name: maxResults
+        description: The maximum number of results to return
+        type: string
+      - in: query
+        name: nextToken
+        description: A token used to retrieve the next value
+        type: string
+      - in: query
+        name: ruleDisabled
+        description: Specifies whether the rule is disabled
+        type: string
+      - in: query
+        name: topic
+        description: The topic
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Topic Rules
   /?Action=CreateTopicRule:
     get:
       summary: Create Topic Rule
@@ -91,34 +119,6 @@ paths:
       - in: query
         name: ruleName
         description: The name of the rule
-        type: string
-      responses:
-        200:
-          description: OK
-      tags:
-      - Topic Rules
-  /?Action=ListTopicRules:
-    get:
-      summary: List Topic Rules
-      description: Lists the rules for the specific topic.
-      operationId: listTopicRules
-      x-api-path-slug: actionlisttopicrules-get
-      parameters:
-      - in: query
-        name: maxResults
-        description: The maximum number of results to return
-        type: string
-      - in: query
-        name: nextToken
-        description: A token used to retrieve the next value
-        type: string
-      - in: query
-        name: ruleDisabled
-        description: Specifies whether the rule is disabled
-        type: string
-      - in: query
-        name: topic
-        description: The topic
         type: string
       responses:
         200:

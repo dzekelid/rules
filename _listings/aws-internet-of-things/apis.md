@@ -15,102 +15,112 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Rules
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/rules/master/_listings/aws-internet-of-things/apis.md
 specificationVersion: "0.14"
 apis:
-- name: AWS Internet of Things API Create Topic Rule
-  x-api-slug: aws-internet-of-things-api
-  description: Creates a rule.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Internet-Of-Things_AWSIoT.png
-  humanURL: https://aws.amazon.com/iot-platform/
-  baseURL: ://///?Action=CreateTopicRule
-  tags: Topic Rules
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/rules/master/_listings/aws-internet-of-things/actioncreatetopicrule-get-openapi.md
-- name: AWS Internet of Things API Delete Topic Rule
-  x-api-slug: aws-internet-of-things-api
-  description: Deletes the specified rule.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Internet-Of-Things_AWSIoT.png
-  humanURL: https://aws.amazon.com/iot-platform/
-  baseURL: ://///?Action=DeleteTopicRule
-  tags: Topic Rules
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/rules/master/_listings/aws-internet-of-things/actiondeletetopicrule-get-openapi.md
-- name: AWS Internet of Things API Disable Topic Rule
-  x-api-slug: aws-internet-of-things-api
-  description: Disables the specified rule.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Internet-Of-Things_AWSIoT.png
-  humanURL: https://aws.amazon.com/iot-platform/
-  baseURL: ://///?Action=DisableTopicRule
-  tags: Topic Rules
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/rules/master/_listings/aws-internet-of-things/actiondisabletopicrule-get-openapi.md
-- name: AWS Internet of Things API Enable Topic Rule
-  x-api-slug: aws-internet-of-things-api
-  description: Enables the specified rule.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Internet-Of-Things_AWSIoT.png
-  humanURL: https://aws.amazon.com/iot-platform/
-  baseURL: ://///?Action=EnableTopicRule
-  tags: Topic Rules
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/rules/master/_listings/aws-internet-of-things/actionenabletopicrule-get-openapi.md
-- name: AWS Internet of Things API Get Topic Rule
-  x-api-slug: aws-internet-of-things-api
-  description: Gets information about the specified rule.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Internet-Of-Things_AWSIoT.png
-  humanURL: https://aws.amazon.com/iot-platform/
-  baseURL: ://///?Action=GetTopicRule
-  tags: Topic Rules
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/rules/master/_listings/aws-internet-of-things/actiongettopicrule-get-openapi.md
-- name: AWS Internet of Things API List Topic Rules
-  x-api-slug: aws-internet-of-things-api
+- name: AWS Internet of Things API - List Topic Rules
+  x-api-slug: actionlisttopicrules-get
   description: Lists the rules for the specific topic.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Internet-Of-Things_AWSIoT.png
   humanURL: https://aws.amazon.com/iot-platform/
-  baseURL: ://///?Action=ListTopicRules
-  tags: Topic Rules
+  baseURL: :///
+  tags: Amazon Web Services, Internet of Things, Stack Network, Devices, API Service
+    Provider, API Service Provider, API Provider, Profiles, Relative Data, Service
+    API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/rules/master/_listings/aws-internet-of-things/actionlisttopicrules-get-openapi.md
-- name: AWS Internet of Things API Replace Topic Rule
-  x-api-slug: aws-internet-of-things-api
-  description: Replaces the specified rule.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Internet-Of-Things_AWSIoT.png
-  humanURL: https://aws.amazon.com/iot-platform/
-  baseURL: ://///?Action=ReplaceTopicRule
-  tags: Topic Rules
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/rules/master/_listings/aws-internet-of-things/actionreplacetopicrule-get-openapi.md
-- name: AWS Internet of Things API
-  x-api-slug: aws-internet-of-things-api
-  description: AWS IoT is a managed cloud platform that lets connected devices easily
-    and securely interact with cloud applications and other devices. AWS IoT can support
-    billions of devices and trillions of messages, and can process and route those
-    messages to AWS endpoints and to other devices reliably and securely. With AWS
-    IoT, your applications can keep track of and communicate with all your devices,
-    all the time, even when they aren&rsquo;t connected.AWS IoT makes it easy to use
-    AWS services like AWS Lambda, Amazon Kinesis, Amazon S3, Amazon Machine Learning,
-    Amazon DynamoDB, Amazon CloudWatch, AWS CloudTrail, and Amazon Elasticsearch Service
-    with built-in Kibana integration, to build IoT applications that gather, process,
-    analyze and act on data generated by connected devices, without having to manage
-    any infrastructure.
+- name: AWS Internet of Things API - Create Topic Rule
+  x-api-slug: actioncreatetopicrule-get
+  description: Creates a rule.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Internet-Of-Things_AWSIoT.png
   humanURL: https://aws.amazon.com/iot-platform/
   baseURL: :///
-  tags: Rules
+  tags: Amazon Web Services, Internet of Things, Stack Network, Devices, API Service
+    Provider, API Service Provider, API Provider, Profiles, Relative Data, Service
+    API
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/rules/master/_listings/aws-internet-of-things/openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/rules/master/_listings/aws-internet-of-things/actioncreatetopicrule-get-openapi.md
+- name: AWS Internet of Things API - Delete Topic Rule
+  x-api-slug: actiondeletetopicrule-get
+  description: Deletes the specified rule.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Internet-Of-Things_AWSIoT.png
+  humanURL: https://aws.amazon.com/iot-platform/
+  baseURL: :///
+  tags: Amazon Web Services, Internet of Things, Stack Network, Devices, API Service
+    Provider, API Service Provider, API Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/rules/master/_listings/aws-internet-of-things/actiondeletetopicrule-get-openapi.md
+- name: AWS Internet of Things API - Disable Topic Rule
+  x-api-slug: actiondisabletopicrule-get
+  description: Disables the specified rule.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Internet-Of-Things_AWSIoT.png
+  humanURL: https://aws.amazon.com/iot-platform/
+  baseURL: :///
+  tags: Amazon Web Services, Internet of Things, Stack Network, Devices, API Service
+    Provider, API Service Provider, API Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/rules/master/_listings/aws-internet-of-things/actiondisabletopicrule-get-openapi.md
+- name: AWS Internet of Things API - Enable Topic Rule
+  x-api-slug: actionenabletopicrule-get
+  description: Enables the specified rule.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Internet-Of-Things_AWSIoT.png
+  humanURL: https://aws.amazon.com/iot-platform/
+  baseURL: :///
+  tags: Amazon Web Services, Internet of Things, Stack Network, Devices, API Service
+    Provider, API Service Provider, API Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/rules/master/_listings/aws-internet-of-things/actionenabletopicrule-get-openapi.md
+- name: AWS Internet of Things API - Get Topic Rule
+  x-api-slug: actiongettopicrule-get
+  description: Gets information about the specified rule.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Internet-Of-Things_AWSIoT.png
+  humanURL: https://aws.amazon.com/iot-platform/
+  baseURL: :///
+  tags: Amazon Web Services, Internet of Things, Stack Network, Devices, API Service
+    Provider, API Service Provider, API Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/rules/master/_listings/aws-internet-of-things/actiongettopicrule-get-openapi.md
+- name: AWS Internet of Things API - List Topic Rules
+  x-api-slug: actionlisttopicrules-get
+  description: Lists the rules for the specific topic.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Internet-Of-Things_AWSIoT.png
+  humanURL: https://aws.amazon.com/iot-platform/
+  baseURL: :///
+  tags: Amazon Web Services, Internet of Things, Stack Network, Devices, API Service
+    Provider, API Service Provider, API Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/rules/master/_listings/aws-internet-of-things/actionlisttopicrules-get-openapi.md
+- name: AWS Internet of Things API - Replace Topic Rule
+  x-api-slug: actionreplacetopicrule-get
+  description: Replaces the specified rule.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Internet-Of-Things_AWSIoT.png
+  humanURL: https://aws.amazon.com/iot-platform/
+  baseURL: :///
+  tags: Amazon Web Services, Internet of Things, Stack Network, Devices, API Service
+    Provider, API Service Provider, API Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/rules/master/_listings/aws-internet-of-things/actionreplacetopicrule-get-openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://aws.inspector.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://aws.internet.of.things.stack.network
 - type: x-blog
   url: https://aws.amazon.com/iot-platform/developer-resources/#Blog
 - type: x-command-line-interface

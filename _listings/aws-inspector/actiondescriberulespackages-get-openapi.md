@@ -38,6 +38,27 @@ paths:
           description: OK
       tags:
       - Rules Packages
+  /?Action=ListRulesPackages:
+    get:
+      summary: List Rules Packages
+      description: Lists all available Amazon Inspector rules packages.
+      operationId: listRulesPackages
+      x-api-path-slug: actionlistrulespackages-get
+      parameters:
+      - in: query
+        name: maxResults
+        description: You can use this parameter to indicate the maximum number of
+          items you want in the         response
+        type: string
+      - in: query
+        name: nextToken
+        description: You can use this parameter when paginating results
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Rules Packages
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

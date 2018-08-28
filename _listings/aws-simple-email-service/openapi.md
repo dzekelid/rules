@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: AWS Simple Email Service
 x-complete: 1
@@ -12,6 +11,26 @@ produces:
 consumes:
 - application/json
 paths:
+  /?Action=CloneReceiptRuleSet:
+    get:
+      summary: Clone Receipt Rule Set
+      description: Creates a receipt rule set by cloning an existing one.
+      operationId: cloneReceiptRuleSet
+      x-api-path-slug: actionclonereceiptruleset-get
+      parameters:
+      - in: query
+        name: OriginalRuleSetName
+        description: The name of the rule set to clone
+        type: string
+      - in: query
+        name: RuleSetName
+        description: The name of the rule set to create
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Receipt Rule Sets
   /?Action=CreateReceiptRule:
     get:
       summary: Create Receipt Rule
@@ -38,6 +57,22 @@ paths:
           description: OK
       tags:
       - Receipt Rules
+  /?Action=CreateReceiptRuleSet:
+    get:
+      summary: Create Receipt Rule Set
+      description: Creates an empty receipt rule set.
+      operationId: createReceiptRuleSet
+      x-api-path-slug: actioncreatereceiptruleset-get
+      parameters:
+      - in: query
+        name: RuleSetName
+        description: The name of the rule set to create
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Receipt Rule Sets
   /?Action=DeleteReceiptRule:
     get:
       summary: Delete Receipt Rule
@@ -59,6 +94,44 @@ paths:
           description: OK
       tags:
       - Receipt Rules
+  /?Action=DeleteReceiptRuleSet:
+    get:
+      summary: Delete Receipt Rule Set
+      description: Deletes the specified receipt rule set and all of the receipt rules
+        it contains.
+      operationId: deleteReceiptRuleSet
+      x-api-path-slug: actiondeletereceiptruleset-get
+      parameters:
+      - in: query
+        name: RuleSetName
+        description: The name of the receipt rule set to delete
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Receipt Rule Sets
+  /?Action=DescribeActiveReceiptRuleSet:
+    get:
+      summary: Describe Active Receipt Rule Set
+      description: Returns the metadata and receipt rules for the receipt rule set
+        that is currently active.
+      operationId: describeActiveReceiptRuleSet
+      x-api-path-slug: actiondescribeactivereceiptruleset-get
+      parameters:
+      - in: query
+        name: Metadata
+        description: The metadata for the currently active receipt rule set
+        type: string
+      - in: query
+        name: Rules.member.N
+        description: The receipt rules that belong to the active rule set
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Receipt Rule Sets
   /?Action=DescribeReceiptRule:
     get:
       summary: Describe Receipt Rule
@@ -79,6 +152,77 @@ paths:
           description: OK
       tags:
       - Receipt Rules
+  /?Action=DescribeReceiptRuleSet:
+    get:
+      summary: Describe Receipt Rule Set
+      description: Returns the details of the specified receipt rule set.
+      operationId: describeReceiptRuleSet
+      x-api-path-slug: actiondescribereceiptruleset-get
+      parameters:
+      - in: query
+        name: RuleSetName
+        description: The name of the receipt rule set to describe
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Receipt Rule Sets
+  /?Action=ListReceiptRuleSets:
+    get:
+      summary: List Receipt Rule Sets
+      description: Lists the receipt rule sets that exist under your AWS account.
+      operationId: listReceiptRuleSets
+      x-api-path-slug: actionlistreceiptrulesets-get
+      parameters:
+      - in: query
+        name: NextToken
+        description: A token returned from a previous call to ListReceiptRuleSets
+          to indicate the position in the receipt rule set list
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Receipt Rule Sets
+  /?Action=ReorderReceiptRuleSet:
+    get:
+      summary: Reorder Receipt Rule Set
+      description: Reorders the receipt rules within a receipt rule set.
+      operationId: reorderReceiptRuleSet
+      x-api-path-slug: actionreorderreceiptruleset-get
+      parameters:
+      - in: query
+        name: RuleNames.member.N
+        description: A list of the specified receipt rule sets receipt rules in the
+          order that you want to put them
+        type: string
+      - in: query
+        name: RuleSetName
+        description: The name of the receipt rule set to reorder
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Receipt Rule Sets
+  /?Action=SetActiveReceiptRuleSet:
+    get:
+      summary: Set Active Receipt Rule Set
+      description: Sets the specified receipt rule set as the active receipt rule
+        set.
+      operationId: setActiveReceiptRuleSet
+      x-api-path-slug: actionsetactivereceiptruleset-get
+      parameters:
+      - in: query
+        name: RuleSetName
+        description: The name of the receipt rule set to make active
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Receipt Rule Sets
   /?Action=SetReceiptRulePosition:
     get:
       summary: Set Receipt Rule Position
@@ -106,4 +250,23 @@ paths:
           description: OK
       tags:
       - Receipt Rules
----
+  /?Action=UpdateReceiptRule:
+    get:
+      summary: Update Receipt Rule
+      description: Updates a receipt rule.
+      operationId: updateReceiptRule
+      x-api-path-slug: actionupdatereceiptrule-get
+      parameters:
+      - in: query
+        name: Rule
+        description: A data structure that contains the updated receipt rule information
+        type: string
+      - in: query
+        name: RuleSetName
+        description: The name of the receipt rule set to which the receipt rule belongs
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Receipt Rule s

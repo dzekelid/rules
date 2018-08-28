@@ -123,6 +123,37 @@ paths:
           description: OK
       tags:
       - Rules
+  /?Action=CreateWebACL:
+    get:
+      summary: Create Web ACL
+      description: 'Service: AWS WAFCreates a WebACL, which contains the Rules that
+        identify the CloudFront web requests that you want to allow, block, or count.'
+      operationId: createWebACL
+      x-api-path-slug: actioncreatewebacl-get
+      parameters:
+      - in: query
+        name: ChangeToken
+        description: The value returned by the most recent call to GetChangeToken
+        type: string
+      - in: query
+        name: DefaultAction
+        description: The action that you want  AWS WAF to take when a request doesnt
+          match the criteria specified in any of the Rule objects that are associated
+          with the WebACL
+        type: string
+      - in: query
+        name: MetricName
+        description: A friendly name or description for the metrics for this WebACL
+        type: string
+      - in: query
+        name: Name
+        description: A friendly name or description of the WebACL
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Web ACL
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

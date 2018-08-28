@@ -13,6 +13,45 @@ produces:
 consumes:
 - application/json
 paths:
+  /?Action=DescribeConfigRules:
+    get:
+      summary: Describe Config Rules
+      description: Returns details about your AWS Config rules.
+      operationId: describeConfigRules
+      x-api-path-slug: actiondescribeconfigrules-get
+      parameters:
+      - in: query
+        name: ConfigRuleNames
+        description: The names of the AWS Config rules for which you want details
+        type: string
+      - in: query
+        name: NextToken
+        description: The nextToken string returned on a previous page thatyou use
+          to get the next page of results in a paginated response
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Configuration Rules
+  /?Action=StartConfigRulesEvaluation:
+    get:
+      summary: Start Config Rules Evaluation
+      description: Runs an on-demand evaluation for the specified Config rules against
+        the last known configuration state of the resources.
+      operationId: startConfigRulesEvaluation
+      x-api-path-slug: actionstartconfigrulesevaluation-get
+      parameters:
+      - in: query
+        name: ConfigRuleNames
+        description: The list of names of Config rules that you want to run evaluations
+          for
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Evaluations
   /?Action=DeleteConfigRule:
     get:
       summary: Delete Config Rule

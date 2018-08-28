@@ -7,13 +7,13 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "1"
 tags: Rules
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/rules/master/_listings/firebase/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Firebase List Rules
-  x-api-slug: firebase
+- name: Firebase - List Rules
+  x-api-slug: v1namerulesets-get
   description: |-
     List `Ruleset` metadata only and optionally filter the results by Ruleset
     name.
@@ -22,13 +22,14 @@ apis:
     GetRuleset.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/firebase-logo.png
   humanURL: https://Firebase.google.com
-  baseURL: https://{project_id].firebaseio.co}////v1/{name}/rulesets
-  tags: Rules
+  baseURL: https://{project_id].firebaseio.co}//
+  tags: Data, Real Time, API Provider, API Service Provider, SDIO Competition, Databases,
+    Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/rules/master/_listings/firebase/v1namerulesets-get-openapi.md
-- name: Firebase Create Rules
-  x-api-slug: firebase
+- name: Firebase - Create Rules
+  x-api-slug: v1namerulesets-post
   description: |-
     Create a `Ruleset` from `Source`.
 
@@ -38,13 +39,14 @@ apis:
     of `Source` issues, use TestRuleset.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/firebase-logo.png
   humanURL: https://Firebase.google.com
-  baseURL: https://{project_id].firebaseio.co}////v1/{name}/rulesets
-  tags: Rules
+  baseURL: https://{project_id].firebaseio.co}//
+  tags: Data, Real Time, API Provider, API Service Provider, SDIO Competition, Databases,
+    Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/rules/master/_listings/firebase/v1namerulesets-post-openapi.md
-- name: Firebase Test  Rule
-  x-api-slug: firebase
+- name: Firebase - Test  Rule
+  x-api-slug: v1nametest-post
   description: |-
     Test `Source` for syntactic and semantic correctness. Issues present in the
     rules, if any, will be returned to the caller with a description, severity,
@@ -70,25 +72,23 @@ apis:
         }
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/firebase-logo.png
   humanURL: https://Firebase.google.com
-  baseURL: https://{project_id].firebaseio.co}////v1/{name}:test
-  tags: Rules
+  baseURL: https://{project_id].firebaseio.co}//
+  tags: Data, Real Time, API Provider, API Service Provider, SDIO Competition, Databases,
+    Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/rules/master/_listings/firebase/v1nametest-post-openapi.md
-- name: Firebase
-  x-api-slug: firebase
-  description: Firebase is a mobile platform that gives developers the tools and infrastructure
-    to build better apps and grow successful businesses.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/firebase-logo.png
-  humanURL: https://Firebase.google.com
-  baseURL: https://{project_id].firebaseio.co}//
-  tags: Rules
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/rules/master/_listings/firebase/openapi.md
 x-common:
+- type: x-google-firebase
+  url: Hacker News Search
+- type: x-stack-exchange-search
+  url: Google Firebase
 - type: x-website
   url: https://Firebase.google.com
+- type: x-api-gallery
+  url: http://fire.browse.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://firebase.stack.network
 - type: x-blog
   url: https://firebase.googleblog.com/
 - type: x-blog-rss
